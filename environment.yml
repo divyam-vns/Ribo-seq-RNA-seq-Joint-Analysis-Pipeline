@@ -1,0 +1,32 @@
+
+---
+
+# `environment.yml`
+```yaml
+name: ribo_rna_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - cutadapt
+  - bowtie2
+  - star
+  - samtools
+  - subread   # featureCounts
+  - fastqc
+  - bedtools
+  - r-base=4.2
+  - r-essentials
+  - r-devtools
+  - r-ggplot2
+  - r-deseq2
+  - r-ribowaltz
+  - r-tidyverse
+  - r-data.table
+  - r-pheatmap
+  - r-BiocGenerics
+  - pip
+  - pip:
+      - pysam
