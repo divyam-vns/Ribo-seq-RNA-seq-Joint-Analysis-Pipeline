@@ -1,0 +1,5 @@
+sample_id    condition    rep    rna_fastq    ribo_fastq
+S1_ctrl_1    ctrl         1      S1_ctrl_1_RNA.fastq.gz     S1_ctrl_1_Ribo.fastq.gz
+S2_ctrl_2    ctrl         2      S2_ctrl_2_RNA.fastq.gz     S2_ctrl_2_Ribo.fastq.gz
+S3_trt_1     trt          1      S3_trt_1_RNA.fastq.gz      S3_trt_1_Ribo.fastq.gz
+S4_trt_2     trt          2      S4_trt_2_RNA.fastq.gz      S4_trt_2_Ribo.fastq.gz
