@@ -21,3 +21,8 @@
 git clone <this-repo>
 cd <this-repo>
 # edit config.yaml with your paths, sample table, genome indexes, GTF, etc.
+
+_ _ _
+**Create conda environment**
+conda env create -f environment.yml
+conda activate ribo_rna_env
